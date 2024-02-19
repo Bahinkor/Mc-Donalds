@@ -1,0 +1,503 @@
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 100rem;
+        margin: 0 auto;
+    }
+
+    .home__img {
+        transform: translateX(-8rem);
+    }
+
+    .home__line-svg {
+        transform: translate(28.5rem, -47rem);
+    }
+
+    .home__arrow-svg {
+        transform: translate(35.9rem, -40rem);
+    }
+
+    .home__arrow-svg2 {
+        transform: translate(32.8rem, -20rem);
+    }
+
+    .home__heart {
+        transform: translate(40rem, -41.5rem);
+    }
+
+    .home__hamburger {
+        transform: translate(40rem, -22rem);
+    }
+
+    .home {
+        background-position-x: 52rem;
+    }
+
+    .off__image {
+        right: -10.5rem;
+    }
+}
+
+@media screen and (max-width: 1013px) {
+    .mobile-app__restaurants {
+        transform: translate(23rem, -9rem);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 76rem;
+        margin: 0 auto;
+    }
+
+    .home__image {
+        max-width: 35rem;
+        transform: translateX(0);
+    }
+
+    .home__line-svg {
+        height: 32rem;
+        transform: translate(19.7rem, -37rem);
+    }
+
+    .home__arrow-svg {
+        transform: translate(26.4rem, -30rem);
+    }
+
+    .home__arrow-svg2 {
+        transform: translate(23.4rem, -15rem);
+    }
+
+    .home__heart {
+        transform: translate(30rem, -31.5rem);
+    }
+
+    .home__hamburger {
+        transform: translate(30rem, -17rem);
+    }
+
+    .home__delivery {
+        transform: translate(-14rem, -48rem);
+    }
+
+    .home {
+        background-position-x: 37rem;
+    }
+
+    .off__image {
+        right: -5.5rem;
+    }
+
+    .mobile-app__restaurants {
+        transform: translate(22rem, -8rem);
+    }
+
+    .mobile-app__offers {
+        font-size: 1.3rem;
+    }
+
+    .mobile-app__title {
+        font-size: 3rem;
+    }
+
+    .mobile-app__caption {
+        font-size: 1.2rem;
+    }
+
+    .mobile-app__content {
+        margin-left: 6rem;
+    }
+
+    .mobile-app__app-store-svg,
+    .mobile-app__google-play-svg {
+        max-width: 12rem;
+    }
+
+    .stores__shape {
+        transform: translate(-27rem, -18rem);
+    }
+
+    .stores__shape2 {
+        transform: translate(-38rem, 0rem);
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .mobile-app__caption {
+        margin-bottom: 2rem;
+    }
+
+    .mobile-app__app-store {
+        margin-right: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        cursor: default !important;
+    }
+
+    .header {
+        margin-top: 0;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    .header__btns {
+        justify-content: center;
+    }
+
+    .header__mobile-menu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        position: relative;
+    }
+
+    .header__mobile-menu::before {
+        content: " ";
+        position: absolute;
+        width: 2.7rem;
+        height: 10rem;
+        border-bottom: 4px solid var(--text-color);
+        border-radius: 0.3rem;
+        bottom: 2.2rem;
+    }
+
+    .home__right {
+        transform: translateX(-5.5rem);
+        max-width: 30rem;
+    }
+
+    .home__line-svg {
+        height: 28rem;
+        transform: translate(15.2rem, -32rem);
+    }
+
+    .home__arrow-svg {
+        transform: translate(21.5rem, -30rem);
+    }
+
+    .home__arrow-svg2 {
+        transform: translate(18.5rem, -15rem);
+    }
+
+    .home__heart {
+        transform: translate(25rem, -31.5rem);
+    }
+
+    .home__hamburger {
+        transform: translate(25rem, -17rem);
+    }
+
+    .home__delivery {
+        transform: translate(-12rem, -42rem);
+    }
+
+    .home {
+        background-position-x: 30rem;
+        background-size: 45rem;
+    }
+
+    .off__image {
+        right: -12rem;
+    }
+
+    .mobile-app__wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .mobile-app__content {
+        margin-left: 0;
+    }
+
+    .mobile-app__image {
+        margin: 4rem 0 0 4rem;
+    }
+
+    .mobile-shape {
+        height: 66rem;
+    }
+
+    .mobile-app__use-promotions {
+        transform: translate(18rem, -26rem);
+    }
+
+    .mobile-app__news {
+        transform: translate(-7rem, -22rem);
+    }
+
+    .mobile-app__foods {
+        transform: translate(-20rem, -13rem);
+    }
+
+    .mobile-app__restaurants {
+        transform: translate(-12rem, -6rem);
+    }
+
+    .footer-wrapper {
+        justify-content: normal;
+        flex-direction: column-reverse;
+    }
+
+    .content-list {
+        justify-content: center;
+    }
+
+    .social {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .home__wrapper {
+        flex-direction: column;
+    }
+
+    .home__title,
+    .home__caption {
+        width: auto;
+        text-align: center;
+    }
+
+    .home__order {
+        transform: translate(13rem, 50rem);
+    }
+
+    .home__right {
+        transform: translate(7rem, -13rem);
+    }
+
+    .home__title {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 656px) {
+    .off__image {
+        right: -5.5rem;
+    }
+
+    .mobile-shape {
+        overflow: hidden;
+    }
+
+    .mobile-app__caption {
+        max-width: 43rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 0.7rem 1rem;
+    }
+
+    .home__title {
+        font-size: 3.3rem;
+    }
+
+    .home__caption {
+        font-size: 1.2rem;
+    }
+
+    .home__image {
+        max-width: 25rem;
+    }
+
+    .home__line-svg {
+        height: 23rem;
+        transform: translate(10.7rem, -27rem);
+    }
+
+    .home__arrow-svg {
+        transform: translate(16.6rem, -24rem);
+    }
+
+    .home__arrow-svg2 {
+        transform: translate(13.5rem, -10rem);
+    }
+
+    .home__heart {
+        gap: 0.3rem;
+        flex-direction: column;
+        max-width: 1rem;
+        text-align: center;
+        transform: translate(18.8rem, -24rem);
+    }
+
+    .home__hamburger {
+        gap: 0.3rem;
+        flex-direction: column;
+        text-align: center;
+        max-width: 1rem;
+        font-size: 0.9rem;
+        transform: translate(18rem, -10rem);
+    }
+
+    .home__delivery {
+        transform: translate(-5rem, -39rem);
+    }
+
+    .home__order {
+        transform: translate(2rem, 43rem);
+    }
+
+    .home {
+        background-position: 8rem 22rem;
+        background-size: 35rem;
+    }
+
+    .off__boxs {
+        grid-template-columns: repeat(auto-fit, minmax(27rem, auto));
+    }
+
+    .mobile-shape {
+        margin-right: 0;
+        border-radius: 25rem 25rem 0 0;
+    }
+
+    .mobile-app__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-app__mobile {
+        margin: 0 auto;
+    }
+
+    .mobile-app__image {
+        margin: 5rem auto 0 auto;
+    }
+
+    .mobile-app__offers {
+        text-align: center;
+    }
+
+    .mobile-app__title {
+        text-align: center;
+    }
+
+    .mobile-app__caption {
+        text-align: center;
+    }
+
+    .mobile-app__use-promotions {
+        transform: translate(23rem, -26rem);
+    }
+
+    .mobile-app__foods {
+        transform: translate(-11rem, -13rem);
+    }
+
+    .mobile-app__restaurants {
+        transform: translate(-8rem, -6rem);
+    }
+
+    .mobile-app__title {
+        font-size: 2.7rem;
+    }
+
+    .stores__title {
+        font-size: 2.5rem;
+    }
+
+    .stores__shape {
+        max-width: 15rem;
+        transform: translate(-20rem, -16rem);
+    }
+
+    .stores__shape2 {
+        transform: translate(-24rem, 1rem);
+    }
+
+    .stores__search {
+        margin: 0 1rem;
+    }
+
+    .stores__caption {
+        margin: 0 1rem;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 453px) {
+    .mobile-app__restaurants {
+        transform: translate(23rem, -15rem);
+    }
+
+    .mobile-app__title {
+        font-size: 2.3rem;
+    }
+
+    .stores__wrapper {
+        height: 31rem;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .off__image {
+        right: -13.5rem;
+    }
+
+    .mobile-app__use-promotions {
+        transform: translate(17rem, -26rem);
+    }
+
+    .mobile-app__foods {
+        transform: translate(-15rem, -13rem);
+    }
+
+    .mobile-app__restaurants {
+        transform: translate(16rem, -13rem);
+    }
+
+    .stores__shape {
+        transform: translate(-6rem, -28rem);
+    }
+
+    .stores__shape2 {
+        transform: translate(-14rem, 1rem);
+    }
+}
+
+@media screen and (max-width: 336px) {
+    .mobile-app__use-promotions {
+        display: none;
+    }
+
+    .mobile-app__foods {
+        display: none;
+    }
+
+    .mobile-app__restaurants {
+        display: none;
+    }
+
+    .mobile-app__news {
+        display: none;
+    }
+
+    .stores__shape {
+        transform: translate(-6rem, -30rem);
+    }
+
+    .stores__shape2 {
+        display: none;
+    }
+}
